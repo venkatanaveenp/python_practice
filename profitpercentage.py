@@ -1,0 +1,13 @@
+c=int(input("Enter a cgos: "))
+r=int(input("Enter a revenue: ")) 
+o=int(input("Enter a operating costs (oc)"))
+print("gross profit")
+x=int(r-c)
+print((x))
+print("net profit")
+v=int(r-c-o)
+print((v))
+print("net profit percentage")
+m=int((v/r)*100)
+
+print((m))
